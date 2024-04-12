@@ -1,0 +1,12 @@
+{
+    "name": "user/proj-php2",
+    "type": "project",
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
